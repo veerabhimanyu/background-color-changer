@@ -1,0 +1,51 @@
+.button {
+  padding: 15px 25px;
+  font-size: 2rem;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  margin: auto;
+  color: #fff;
+  background-color: #630707;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 9px 9px 9px 9px rgb(0, 0, 0);
+  align-self: center;
+  margin-top: 19%;
+  border: black 2px;
+}
+
+.button:hover {
+  background-color: #7e0e46;
+}
+
+.button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+.footer {
+  width: 450px;
+  text-align: center;
+  display: block;
+  margin: 15px auto 30px auto;
+  font-size: 0.8em;
+  color: rgb(0, 0, 1);
+  margin-top: 5%;
+}
+a {
+  font-weight: 500;
+  text-decoration: none;
+  color: rgb(0, 0, 1);
+}
+@media (max-width: 480px) {
+  .button {
+    margin-top: 60%;
+    width: 80%;
+    margin-left: 30%;
+    margin-right: 30%;
+  }
+  .tex {
+    text-align: center;
+  }
+}
